@@ -49,7 +49,7 @@ footer {
     color: #ffffff;
 }
 
-/* Additional Styles for Links */
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -59,14 +59,13 @@ a {
 a:hover {
     color: #0056b3;
 }
-/* ... (unchanged code above) */
+
 
 .skill-stars {
-    color: #f8d83a; /* Yellow color for stars */
+    color: #f8d83a;
     font-size: 1.2em;
 }
 
-/* ... (unchanged code above) */
 
 section {
     max-width: 800px;
@@ -76,6 +75,4 @@ section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
-/* ... (unchanged code below) */
 
