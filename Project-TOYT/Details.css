@@ -1,0 +1,52 @@
+.detailcard{
+    background-color: rgb(255, 255, 255);
+    width:22%;
+    height: 48%;
+    margin-top: 10%;
+    margin-left: 12%;
+    position: absolute;
+    padding-top: 42px;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS';
+}
+.toy{
+    margin-top: 13%;
+}
+.details{
+    background-color: rgb(78, 74, 80);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width:50%;
+    height:170.5%;
+    margin-left:50%;
+    font-size: 23px;
+    line-height: 33px;
+    font-family: 'Comic Sans MS';
+}
+
+.para{
+    margin-top:7%;
+    width:85%;
+    margin-left: 10%;
+
+}
+
+.head{
+    margin-top: 20%;
+    font-size: 30px;
+    color: violet;
+}
+
+.dbutton{
+    width:20%;
+    height:40px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    font-weight:600;
+    margin-left: 4%;    
+
+}

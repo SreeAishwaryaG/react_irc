@@ -1,0 +1,429 @@
+
+.homeh1{
+  font-size:35px;
+  font-weight:lighter;
+  font-family:'Comic Sans MS';
+  margin-top: 6%;
+  margin-right:3%;
+  margin-left: 5%;
+  height: 19vh;
+ 
+ 
+}
+body{
+  /* background-color: rgb(182, 126, 227); */
+  background-color: violet;
+    width: 100%; 
+    height: 100%;
+    font-family:'Gill Sans';
+}
+.homep1{
+  font-size: 20px;
+  font-family: 'Gill Sans';
+  height: 10vh;
+  font-size:20px;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 1%;
+
+  
+}
+
+.homebutton {
+  background-color:#1c1a1a;
+  color: violet; 
+  padding: 12px;
+ border: none;
+   border-radius: 5px;
+  font-size: 16px;
+  width: 40%;
+ margin-top: 2%;
+ margin-bottom: 10%;
+ margin-left: 5%;
+ margin-right: 9%;
+ text-decoration: none;
+ font-family: 'Comic Sans MS';
+}
+
+.card {
+  background-color: white;
+  width: 22%;
+  height: 13%;
+  padding-top: 12px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 100px;
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 20px;
+  margin-right: 60%;
+  margin-left: 13%;
+  margin-top: 2%;
+  position:relative;
+}
+
+.card:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+.cardh1{
+     /* font-family:'Comic Sans MS'; */
+     color: black;
+     margin-top: 15%;
+     font-weight:lighter;
+}
+
+.image{
+  border-radius: 30px;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  
+}
+
+.cdbutton{
+  background-color: #383636;
+  color:violet; 
+  padding: 12px;
+ border: none;
+   border-radius: 5px;
+  font-size: 13px;
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font-family: 'Comic Sans MS';
+}
+
+.card1h1{
+  /* font-family:'Comic Sans MS'; */
+  color: black;
+  margin-top: 19%;
+}
+
+.cdbutton1{
+  background-color: #383636;
+  color:violet; 
+  padding: 12px;
+ border: none;
+   border-radius: 5px;
+  font-size: 13px;
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font-family: 'Comic Sans MS';
+}
+
+.card1{
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 22%;
+    height: 50%;
+    padding-top: 1px;
+    margin-left:15%;
+    margin-right: 10%;
+    margin-top: 28%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 70px;
+    transition: box-shadow 0.2s ease; 
+  
+  
+  
+}
+.card1:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+
+.card2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-right:10%;
+  margin-left: 67%;
+  margin-top: 28%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  transition: box-shadow 0.2s ease; 
+
+
+}
+.card2:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+
+.card3 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 10%;
+  margin-right: 57%;
+  margin-top: 61%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  transition: box-shadow 0.2s ease; 
+
+
+}
+
+.card3:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0,2); /* Change shadow on hover */
+}
+
+.cardtitle {
+  
+}
+
+.cardT {
+  font-family: 'Comic Sans MS';
+  font-weight:bold;
+  font-size: 35px;
+  margin-left: 5%;
+  margin-top: 120%;
+  color: #000000;
+  letter-spacing: 1px;
+  /* font-weight: lighter; */
+
+ 
+}
+
+.card4 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 45%;
+  margin-right: 40%;
+  margin-top: 61%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  transition: box-shadow 0.2s ease; 
+
+
+}
+
+.card4:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+
+.card5{
+
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 77%;
+  margin-right: 20%;
+  margin-top: 61%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  transition: box-shadow 0.2s ease; 
+
+
+
+}
+.card5:hover {
+box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+.heart-icon {
+  position: absolute;
+  top: 15px;
+  left: 250px;
+  font-size: 20px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  color: #dda7a7;
+
+}
+
+.heart-clicked {
+  font-size: 30px;
+  color: red;
+}
+
+
+/* ------------------------------------------------------------- */
+.cardtitle2{
+  color: #000000;
+  position: relative;
+  margin-top: 275%;
+  font-family: 'Comic Sans MS';
+  font-size: 35px;
+  font-weight:bold;
+
+}
+
+.cardT {
+
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  width: 100%;
+  margin-left: 0;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around; 
+  width: 100%;
+  margin-left: 0;
+}
+
+.card6{
+  background-color: rgb(255, 255, 255);
+  width: 22%;
+  height: 17%;
+  padding-top: 12px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 40px;
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 20px;
+  margin-right: 60%;
+  margin-left: 13%;
+  margin-top: 1.5%;
+  position:relative;
+}
+.card6:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+.card7{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 50%;
+  padding-top: 2px;
+  margin-left:15%;
+  margin-right: 10%;
+  margin-top: 115%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 70px;
+  transition: box-shadow 0.2s ease; 
+}
+
+.card7:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0,2); /* Change shadow on hover */
+}
+
+.card8{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 10%;
+  margin-right: 57%;
+  margin-top: 148%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 40px;
+  transition: box-shadow 0.2s ease; 
+}
+.card8:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+.card9{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 50%;
+  padding-top: 27px;
+  margin-left:15%;
+  margin-right: 10%;
+  margin-top: 148%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 70px;
+  transition: box-shadow 0.2s ease; 
+}
+
+.card9:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+
+.card10{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 77%;
+  margin-right: 20%;
+  margin-top: 114.7%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  transition: box-shadow 0.2s ease; 
+}
+.card10:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+
+.card11{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 22%;
+  height: 57%;
+  padding-top: 12px;
+  margin-left: 77%;
+  margin-right: 20%;
+  margin-top:148%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 40px;
+  transition: box-shadow 0.2s ease; 
+}
+.card11:hover {
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 2); /* Change shadow on hover */
+}
+
+.explore-now-container {
+  position: relative;
+}
+
+.arrow-animation {
+  position: absolute;
+  top: 70%;
+  left: 51%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #252323; /* You can change the color as per your design */
+  animation: arrowBounce 1s infinite;
+}
+
+@keyframes arrowBounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+

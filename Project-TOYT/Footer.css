@@ -1,0 +1,64 @@
+/* Footer.css */
+.footer-container {
+    margin-top: 80%;
+    background-color: #383636;
+    padding: 20px;
+    color:violet;
+    font-family: 'Comic Sans MS';
+  }
+  body{
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footerhead1 {
+    text-align: left;
+  }
+  
+  .list1,
+  .list2 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list1 li,
+  .list2 li {
+    margin-bottom: 8px;
+  }
+  
+  .list2 a {
+    text-decoration: none; 
+    color: #fffdfd; /* Set the link color */
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Add space between icon links */
+  }
+  
+  .list2 a:last-child {
+    margin-right: 0; /* Remove margin for the last icon link */
+  }
+
+  .icons-container {
+    display: flex;
+  }
+  
+  .icons-container a {
+    text-decoration: none; /* Remove underlines from links */
+    color: violet; /* Set the link color */
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+   
+  }
+  
+  .icons-container a:last-child {
+    margin-right: 0; /* Remove margin for the last icon link */
+  }
+  
+  .icons-container a svg {
+    font-size: 1.5em; /* Adjust the size here */
+  }
+  
