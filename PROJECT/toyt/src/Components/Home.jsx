@@ -15,9 +15,10 @@ import penguin from '../assests/penguin.jpeg';
 import babybee from '../assests/babybee.jpeg';
 import minitruck from '../assests/minitruck.jpeg';
 import { Link } from 'react-router-dom';
-
+import axios from 'axios';
 const ToyStoreHomePage = () => {
   const bestSellersRef = useRef(null);
+ 
 
   const scrollToBestSellers = () => {
     bestSellersRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -31,7 +32,7 @@ const ToyStoreHomePage = () => {
 
   return (
     <div className='container'>
-      <div className='homeh1'>
+           <div className='homeh1'>
         <h1>Welcome to Our ToyT</h1>
       </div>
       <div className='homep1'>
@@ -190,7 +191,7 @@ const ToyStoreHomePage = () => {
         <div
             className={`heart-icon ${heartClicked ? 'heart-clicked' : ''}`}
             onClick={handleHeartClick}
-          >
+            >
             ❤
           </div>
         <img src={stich}></img>
@@ -250,6 +251,7 @@ const ToyStoreHomePage = () => {
        </div>   
     </div>
   
+          
   );
 };
 

@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
-import toyName from '../assests/toybike.jpeg';
-import teddy from '../assests/teddy.jpeg';
-import unicorn from '../assests/unicorn.jpeg';
-import woody from '../assests/woody.jpeg';
-import bingbong from '../assests/bingbong.jpeg';
+import toyName from '../assests/Ageone/cube.jpeg';
+import teddy from '../assests/Ageone/elephantrider.jpeg';
+import unicorn from '../assests/Ageone/flashcards.jpeg';
+import woody from '../assests/Ageone/montessori.jpeg';
+import bingbong from '../assests/Ageone/stemtoys.jpeg';
 import pinocchio from '../assests/pinocchio.jpeg';
 import lightening from '../assests/ligtening.jpeg';
 import mater from '../assests/mater.jpeg';
@@ -12,7 +12,7 @@ import penguin from '../assests/penguin.jpeg';
 import babybee from '../assests/babybee.jpeg';
 import minitruck from '../assests/minitruck.jpeg';
 import "./AgeOne.css";
-const Board = () => {
+const AgeOne = () => {
     const [heartClicked, setHeartClicked] = useState(false);
 
     const handleHeartClick = () => {
@@ -20,7 +20,7 @@ const Board = () => {
     };
   return (
     <div>
-         <div className='title'>For Kids
+         <div className='title'>For 1-6 Years
         </div>
         <div>
       <div className='onecard-container'>
@@ -218,4 +218,4 @@ const Board = () => {
   )
 }
 
-export default Board
+export default AgeOne

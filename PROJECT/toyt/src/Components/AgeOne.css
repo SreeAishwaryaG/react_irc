@@ -1,76 +1,40 @@
 
-.homeh1{
-    font-size:35px;
-    font-weight:lighter;
-    font-family:'Gill Sans';
-    margin-top: 6%;
-    margin-right:3%;
-    margin-left: 5%;
-    height: 19vh;
-   
-   
-  }
+
   body{
-    background-color: rgb(182, 126, 227);
+    /* background-color: rgb(255, 255, 255); */
       width: 100%; 
       height: 100%;
       font-family:'Gill Sans';
-  }
-  .homep1{
-    font-size: 15px;
-    font-family: 'Gill Sans';
-    height: 10vh;
-    font-size:20px;
-    margin-left: 35%;
-    margin-right: 30%;
-    margin-top: 1%;
+  } 
   
-    
-  }
   
-  .homebutton {
-    background-color: rgb(151, 38, 203);
-    color: #fff; 
-    padding: 12px;
-   border: none;
-     border-radius: 5px;
-    font-size: 16px;
-    width: 40%;
-   margin-top: 2%;
-   margin-bottom: 10%;
-   margin-left: 5%;
-   margin-right: 9%;
-   text-decoration: none;
-  }
-  
-  .card {
+  .onecard {
     background-color: rgb(255, 255, 255);
     width: 22%;
-    height: 13%;
+    height: 31%;
     padding-top: 12px;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 100px;
+    padding-bottom: 5px;
     transition: box-shadow 0.2s ease;
     margin-bottom: 20px;
-    margin-right: 60%;
-    margin-left: 13%;
-    margin-top: 2%;
-    position:relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    position: relative;
+   
   }
   
-  .card:hover {
-    box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
+  .onecard:hover {
+    box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5);
   }
-  
-  .cardh1{
+  .onecardh1{
        font-family:'Verdana';
        color: black;
        margin-top: 15%;
        font-weight:lighter;
   }
   
-  .image{
+  .oneimage{
     border-radius: 30px;
     margin-top: 4%;
     margin-left: 4%;
@@ -78,7 +42,7 @@
     
   }
   
-  .cdbutton{
+  .onecdbutton{
     background-color: rgb(165, 104, 214);
     color: #fff; 
     padding: 12px;
@@ -90,14 +54,14 @@
     margin-bottom: 10%;
   }
   
-  .card1h1{
+  .onecard1h1{
     font-family:'Verdana';
     color: black;
     margin-top: 19%;
     font-weight:lighter;
   }
   
-  .cdbutton1{
+  .onecdbutton1{
     background-color: rgb(165, 104, 214);
     color: #fff; 
     padding: 12px;
@@ -109,38 +73,39 @@
     margin-bottom: 10%;
   }
   
-  .card1{
+  .onecard1{
   
-      background-color: rgb(255, 255, 255);
-      position: absolute;
-      width: 22%;
-      height: 50%;
-      padding-top: 2px;
-      margin-left:15%;
-      margin-right: 10%;
-      margin-top: 28%;
-      border-radius: 30px;
-      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-      padding-bottom: 70px;
-      transition: box-shadow 0.2s ease; 
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    height: 12%;
+    padding-top: 1px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: px;
+    transition: box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 36%;
+    margin-top:5%; 
+    position: relative;
     
     
     
   }
-  .card1:hover {
+  .onecard1:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
   
-  .card2 {
+  .onecard2 {
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 57%;
     padding-top: 12px;
-    margin-right:10%;
-    margin-left: 67%;
-    margin-top: 28%;
+    margin-right:2%;
+    margin-left: 62%;
+    margin-top: 5%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
@@ -148,20 +113,20 @@
   
   
   }
-  .card2:hover {
+  .onecard2:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
   
-  .card3 {
+  .onecard3 {
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 57%;
     padding-top: 12px;
-    margin-left: 10%;
-    margin-right: 57%;
-    margin-top: 61%;
+    margin-left: 8%;
+    margin-right: 67%;
+    margin-top: 41%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
@@ -170,7 +135,7 @@
   
   }
   
-  .card3:hover {
+  .onecard3:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
@@ -178,7 +143,7 @@
     
   }
   
-  .cardT {
+  .onecardT {
     font-family: 'Gill Sans';
     font-weight:bold;
     font-size: 35px;
@@ -191,15 +156,15 @@
    
   }
   
-  .card4 {
+  .onecard4 {
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 57%;
     padding-top: 12px;
-    margin-left: 45%;
-    margin-right: 40%;
-    margin-top: 61%;
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 41%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
@@ -208,33 +173,30 @@
   
   }
   
-  .card4:hover {
+  .onecard4:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
   
-  .card5{
+  .onecard5{
   
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 57%;
     padding-top: 12px;
-    margin-left: 77%;
-    margin-right: 20%;
-    margin-top: 61%;
+    margin-left: 69%;
+    margin-right: 9%;
+    margin-top: 41%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
     transition: box-shadow 0.2s ease; 
-  
-  
-  
   }
-  .card5:hover {
+  .onecard5:hover {
   box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
-  .heart-icon {
+  .oneheart-icon {
     position: absolute;
     top: 15px;
     left: 250px;
@@ -245,19 +207,19 @@
   
   }
   
-  .heart-clicked {
+  .oneheart-clicked {
     font-size: 30px;
     color: red;
   }
   
   
   /* ------------------------------------------------------------- */
-  .cardtitle2{
-    color: #000000;
+  .title{
+    color:#1c1a1a;
     position: relative;
-    margin-top: 290%;
-    font-family: 'Gill Sans';
-    font-size: 35px;
+    margin-top: 7%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
     font-weight:bold;
   
   }
@@ -265,133 +227,131 @@
   .cardT {
   
   }
-  .card-container {
+  .onecard-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-    width: 100%;
-    margin-left: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
     
-  }
+  } 
   
-  .container {
+  /* .onecontainer {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around; 
     width: 100%;
     margin-left: 0;
-  }
+  } */
   
-  .card6{
+  .onecard6{
     background-color: rgb(255, 255, 255);
     width: 22%;
     height: 17%;
     padding-top: 12px;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 40px;
+    padding-bottom: 4px;
     transition: box-shadow 0.2s ease;
-    margin-bottom: 20px;
-    margin-right: 60%;
-    margin-left: 13%;
-    margin-top: 1.5%;
+    margin-bottom: 4px;
+    margin-right: 65%;
+    margin-left: 6%;
+    margin-top: 40%;
     position:relative;
   }
-  .card6:hover {
+  .onecard6:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
-  .card7{
+  .onecard7{
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 50%;
     padding-top: 2px;
-    margin-left:15%;
-    margin-right: 10%;
-    margin-top: 115%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 76%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     transition: box-shadow 0.2s ease; 
   }
   
-  .card7:hover {
+  .onecard7:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
-  .card8{
+  .onecard8{
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
-    height: 57%;
-    padding-top: 12px;
-    margin-left: 10%;
-    margin-right: 57%;
-    margin-top: 148%;
+    height: 54%;
+    margin-left: 65%;
+    margin-right: 5%;
+    margin-top: 76%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     transition: box-shadow 0.2s ease; 
   }
-  .card8:hover {
+  .onecard8:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
-  .card9{
+  .onecard9{
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 50%;
     padding-top: 27px;
-    margin-left:15%;
-    margin-right: 10%;
-    margin-top: 148%;
+    margin-left:10%;
+    margin-right: 70%;
+    margin-top: 111%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 70px;
     transition: box-shadow 0.2s ease; 
   }
   
-  .card9:hover {
+  .onecard9:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   
   
-  .card10{
+  .onecard10{
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 22%;
     height: 57%;
     padding-top: 12px;
-    margin-left: 77%;
+    margin-left: 20%;
     margin-right: 20%;
-    margin-top: 114.7%;
-    border-radius: 30px;
-    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
-    transition: box-shadow 0.2s ease; 
-  }
-  .card10:hover {
-    box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
-  }
-  
-  
-  .card11{
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    width: 22%;
-    height: 57%;
-    padding-top: 12px;
-    margin-left: 77%;
-    margin-right: 20%;
-    margin-top:148%;
+    margin-top: 111%;
     border-radius: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 40px;
     transition: box-shadow 0.2s ease; 
   }
-  .card11:hover {
+  .onecard10:hover {
+    box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
+  }
+  
+  
+  .onecard11{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 22%;
+    height: 57%;
+    padding-top: 12px;
+    margin-left: 77%;
+    margin-right: 17%;
+    margin-top:111%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px;
+    transition: box-shadow 0.2s ease; 
+  }
+  .onecard11:hover {
     box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Change shadow on hover */
   }
   

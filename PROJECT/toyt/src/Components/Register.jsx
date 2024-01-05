@@ -8,32 +8,69 @@ const RegisterForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [ageGroup, setAgeGroup] = useState('');
-  const [category, setCategory] = useState('');
+  // const [ageGroup, setAgeGroup] = useState('');
+  // const [category, setCategory] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
+
   const register = () => {
-        if (!username || !email || !password || !confirmPassword) {
-      setErrorMessage('Please fill in all fields');
-      setSuccessMessage('');
-      return;
-    }
-
-    
-    if (password !== confirmPassword) {
-      setErrorMessage('Passwords do not match');
-      setSuccessMessage('');
-      return;
-    }
-
-    
-    setErrorMessage('');
-    setSuccessMessage('Registered successfully!');
+    const trimmedUsername = username.trim();
+    const trimmedEmail = email.trim();
+    const trimmedPassword = password.trim();
+    const trimmedConfirmPassword = confirmPassword.trim();
   
+
+    setErrorMessage('');
+    setSuccessMessage('');
+  
+   
+    if (!trimmedUsername) {
+      setErrorMessage('Username is required');
+      return;
+    }
+  
+    if (!trimmedEmail) {
+      setErrorMessage('Email is required');
+      return;
+    }
+  
+    if (!trimmedPassword) {
+      setErrorMessage('Password is required');
+      return;
+    }
+  
+    if (!trimmedConfirmPassword) {
+      setErrorMessage('Confirm Password is required');
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(trimmedEmail)) {
+      setErrorMessage('Invalid email format');
+      return;
+    }
+  
+    
+    if (trimmedPassword.length < 8) {
+      setErrorMessage('Password must be at least 8 characters long');
+      return;
+    }
+  
+    
+    if (trimmedPassword !== trimmedConfirmPassword) {
+      setErrorMessage('Passwords do not match');
+      return;
+    }
+  
+    
+    setSuccessMessage('Registered successfully!');
   };
+  
+  
 
   return (
+     
     <div className='regbody'>
     <div className="register-container">
       <h1 className='regh1'>Join ToyT!</h1>
